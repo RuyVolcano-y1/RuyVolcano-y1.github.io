@@ -23,6 +23,25 @@
     
     
     <entry>
+      <title>重新开始</title>
+      <link href="/2025/02/19/%E9%87%8D%E6%96%B0%E5%BC%80%E5%A7%8B/"/>
+      <url>/2025/02/19/%E9%87%8D%E6%96%B0%E5%BC%80%E5%A7%8B/</url>
+      
+        <content type="html"><![CDATA[<p>花费一天的时间终于把我的小博客给搞回来啦，接下来就是开始记录啦😍</p><h1 id="把我的小站重新搞回来啦！😘"><a href="#把我的小站重新搞回来啦！😘" class="headerlink" title="把我的小站重新搞回来啦！😘"></a>把我的小站重新搞回来啦！😘</h1><hr>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 杂记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>图像分类</title>
       <link href="/2025/02/19/%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB/"/>
       <url>/2025/02/19/%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB/</url>
@@ -46,25 +65,6 @@
     </entry>
     
     
-    
-    <entry>
-      <title>重新开始</title>
-      <link href="/2025/02/19/%E9%87%8D%E6%96%B0%E5%BC%80%E5%A7%8B/"/>
-      <url>/2025/02/19/%E9%87%8D%E6%96%B0%E5%BC%80%E5%A7%8B/</url>
-      
-        <content type="html"><![CDATA[<p>花费一天的时间终于把我的小博客给搞回来啦，接下来就是开始记录啦😍</p><h1 id="把我的小站重新搞回来啦！😘"><a href="#把我的小站重新搞回来啦！😘" class="headerlink" title="把我的小站重新搞回来啦！😘"></a>把我的小站重新搞回来啦！😘</h1><hr>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 杂记 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
   
   
     
@@ -81,11 +81,11 @@
     
     
     <entry>
-      <title>归档分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title></title>
+      <link href="/css/kslink.css"/>
+      <url>/css/kslink.css</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[/* 添加友链按钮 *//* 快速填写格式 */.addBtn {    display: flex;    justify-content: center;    flex-wrap: wrap;}.addBtn button {    transition: .2s;    display: flex;    margin: 5px auto;    color: var(--global-bg);    padding: 15px;    border-radius: 40px;    background: var(--search-result-title);    align-items: center;}button {    padding: 0;    outline: 0;    border: none;    background: 0 0;    cursor: pointer;    touch-action: manipulation;}.fa-solid, .fas {    font-family: "Font Awesome 6 Free";    font-weight: 900;}.addBtn i {    font-size: 1.3rem;    margin-right: 10px;}.addBtn button:hover {    background: var(--theme-color);    color: #fff;}]]></content>
       
     </entry>
     
@@ -97,6 +97,17 @@
       <url>/comments/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/kslink.js"/>
+      <url>/js/kslink.js</url>
+      
+        <content type="html"><![CDATA[var leonus = {    linkCom: e => {        var t = document.querySelector(".el-textarea__inner");        "bf" == e ? (t.value = "```yml\n", t.value += "- name: \n  link: \n  avatar: \n  descr: \n  siteshot: ", t.value += "\n```", t.setSelectionRange(15, 15)) : (t.value = "站点名称：\n站点地址：\n头像链接：\n站点描述：\n站点截图：", t.setSelectionRange(5, 5)), t.focus()    },    owoBig: () => {        if (!document.getElementById("post-comment") || document.body.clientWidth < 768) return;        let e = 1,            t = "",            o = document.createElement("div"),            n = document.querySelector("body");        o.id = "owo-big", n.appendChild(o), new MutationObserver((l => {            for (let a = 0; a < l.length; a++) {                let i = l[a].addedNodes,                    s = "";                if (2 == i.length && "OwO-body" == i[1].className) s = i[1];                else {                    if (1 != i.length || "tk-comment" != i[0].className) continue;                    s = i[0]                }                s.onmouseover = l => {                    e && ("OwO-body" == s.className && "IMG" == l.target.tagName || "tk-owo-emotion" == l.target.className) && (e = 0, t = setTimeout((() => {                        let e = 3 * l.path[0].clientHeight,                            t = 3 * l.path[0].clientWidth,                            a = l.x - l.offsetX - (t - l.path[0].clientWidth) / 2,                            i = l.y - l.offsetY;                        a + t > n.clientWidth && (a -= a + t - n.clientWidth + 10), a < 0 && (a = 10), o.style.cssText = `display:flex; height:${e}px; width:${t}px; left:${a}px; top:${i}px;`, o.innerHTML = `<img src="${l.target.src}">`                    }), 300))                }, s.onmouseout = () => {                    o.style.display = "none", e = 1, clearTimeout(t)                }            }        })).observe(document.getElementById("post-comment"), {            subtree: !0,            childList: !0        })    },};]]></content>
       
     </entry>
     
@@ -117,6 +128,17 @@
       <title>标签</title>
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>归档分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
