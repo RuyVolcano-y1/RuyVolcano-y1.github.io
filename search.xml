@@ -86,6 +86,17 @@
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
       
+        <content type="html"><![CDATA[<h2 id="关键词"><a href="#关键词" class="headerlink" title="关键词"></a>关键词</h2><blockquote><p>给自己几个期望达成的关键词。这就像一本书的目录、能够让你快速想起关联的目标与事情。</p></blockquote><ul><li>突破</li><li>健康</li></ul><h2 id="个人目标"><a href="#个人目标" class="headerlink" title="个人目标"></a>个人目标</h2><blockquote><p>推荐以九宫格的方式，设置各维度的目标。</p></blockquote><table><thead><tr><th><strong>🎓</strong>**  学习成长**</th><th></th><th><strong>🎢</strong>**  体验突破**</th><th></th><th><strong>⛺️</strong>**  休闲娱乐**</th></tr></thead><tbody><tr><td>- [ ] 举办 2 场活动<br/>- [ ] 完成在线 MBA课程<br/>- [ ] 备考健康管理师</td><td></td><td>- [ ] 体验 1 次过山车<br/>- [ ] 体验 1 次即兴戏剧<br/>- [ ] 认识圈外的 10个新朋友</td><td></td><td>- [ ] 周末周边游</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td><strong>📃</strong>**  工作事业**</td><td></td><td><strong>💡</strong>** 关键词**</td><td></td><td><strong>👪</strong>**  家庭生活**</td></tr><tr><td>- [ ] 加强打造个人品牌<br/>- [ ] 努力晋升<br/>- [ ] 获得行业专家的认可</td><td></td><td><strong>突破</strong><br/><strong>健康</strong></td><td></td><td>- [ ] 增加与父母的沟通频率<br/>- [ ] 完善家庭保险<br/>- [ ] 购房抽签</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td><strong>🧘‍♀️</strong>**  身心健康**</td><td></td><td><strong>💰</strong>** 收支理财**</td><td></td><td><strong>👭</strong>** 人际社交**</td></tr><tr><td>- [ ] 早睡早起<br/>- [ ] 养成跑步和瑜伽的习惯</td><td></td><td>- [ ] 减少不必要的开支<br/>- [ ] 尝试稳健型投资</td><td></td><td>- [ ] 经营好来自社群的朋友<br/>- [ ] 维护老朋友关系</td></tr></tbody></table><h2 id="任务清单"><a href="#任务清单" class="headerlink" title="任务清单"></a>任务清单</h2><blockquote><p>达成目标具体需要做哪些事情。</p></blockquote><ul><li><font style="background:#F6E1AC;color:#664900">每周</font> 知识星球每周 1 更</li><li><font style="background:#DBF1B7;color:#2A4200">每天</font> 每天保持 8 小时睡眠</li><li><font style="background:#EFF0F0;color:#262626">双周</font> 每 2 周与父母视频 1 次</li><li><font style="background:#C0DDFC;color:#00346B">每月</font> 每月相亲 1 次</li></ul><h2 id="好习惯和坏习惯"><a href="#好习惯和坏习惯" class="headerlink" title="好习惯和坏习惯"></a>好习惯和坏习惯</h2><blockquote><p>为完成目标，设置 3-5 条坚持做和禁止做的事情。</p></blockquote><p><strong>我要做的</strong></p><ol><li>早睡早起、每日睡眠 ≥ 8h</li><li>每月阅读一本书</li></ol><p>…</p><p><strong>我不要做的</strong></p><ol><li>躺着玩手机</li><li>吃垃圾食品</li></ol><p>…</p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>about</title>
+      <link href="/about/index1.html"/>
+      <url>/about/index1.html</url>
+      
         <content type="html"><![CDATA[]]></content>
       
     </entry>
@@ -137,9 +148,9 @@
     
     
     <entry>
-      <title>链接</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -148,9 +159,9 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>链接</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
