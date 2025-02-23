@@ -107,17 +107,6 @@
     
     
     <entry>
-      <title>归档分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>about Easy</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
@@ -151,11 +140,11 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/kslink.css"/>
-      <url>/css/kslink.css</url>
+      <title>归档分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
-        <content type="html"><![CDATA[/* 添加友链按钮 *//* 快速填写格式 */.addBtn {    display: flex;    justify-content: center;    flex-wrap: wrap;}.addBtn button {    transition: .2s;    display: flex;    margin: 5px auto;    color: var(--global-bg);    padding: 15px;    border-radius: 40px;    background: var(--search-result-title);    align-items: center;}button {    padding: 0;    outline: 0;    border: none;    background: 0 0;    cursor: pointer;    touch-action: manipulation;}.fa-solid, .fas {    font-family: "Font Awesome 6 Free";    font-weight: 900;}.addBtn i {    font-size: 1.3rem;    margin-right: 10px;}.addBtn button:hover {    background: var(--theme-color);    color: #fff;}]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -173,11 +162,11 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title></title>
+      <link href="/css/kslink.css"/>
+      <url>/css/kslink.css</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[/* 添加友链按钮 *//* 快速填写格式 */.addBtn {    display: flex;    justify-content: center;    flex-wrap: wrap;}.addBtn button {    transition: .2s;    display: flex;    margin: 5px auto;    color: var(--global-bg);    padding: 15px;    border-radius: 40px;    background: var(--search-result-title);    align-items: center;}button {    padding: 0;    outline: 0;    border: none;    background: 0 0;    cursor: pointer;    touch-action: manipulation;}.fa-solid, .fas {    font-family: "Font Awesome 6 Free";    font-weight: 900;}.addBtn i {    font-size: 1.3rem;    margin-right: 10px;}.addBtn button:hover {    background: var(--theme-color);    color: #fff;}]]></content>
       
     </entry>
     
@@ -187,6 +176,17 @@
       <title>链接</title>
       <link href="/link/index.html"/>
       <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
